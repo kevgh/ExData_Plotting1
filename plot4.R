@@ -33,10 +33,10 @@ plot_reactive_power <- function(energy_data)
 par(mfrow = c(2, 2))
 ed <- get_energy_data()
 png(filename = "plot4.png")
-{
-  plot_active_power(ed)
-  plot_voltage(ed)
-  plot_sub_metering(ed, FALSE)
-  plot_reactive_power(ed)
-}
+#{
+    plot_active_power(ed)
+    plot_voltage(ed)
+    plot_sub_metering(ed, FALSE)
+    plot_reactive_power(ed)
+#}
 dev.off()

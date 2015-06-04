@@ -10,6 +10,6 @@ plot_active_power <- function(energy_data)
 }
 
 par(mfrow=c(1, 1))
-png(filename = "plot1.png")
+#png(filename = "plot1.png")
 plot_active_power(get_energy_data())
-dev.off()
+#dev.off()

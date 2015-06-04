@@ -32,7 +32,7 @@ plot_sub_metering <- function(energy_data, draw_legend_box)
          lwd = c(3, 3, 3), bty = bty)
 }
 
-par(mfrow=c(1. 1))
+par(mfrow=c(1, 1))
 png(filename = "plot3.png")
 plot_sub_metering(get_energy_data(), TRUE)
 dev.off()
